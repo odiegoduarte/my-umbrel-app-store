@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: diego-spiderfoot
+name: SpiderFoot
+tagline: Automate OSINT collection and analysis
+icon: https://raw.githubusercontent.com/smicallef/spiderfoot/refs/heads/master/spiderfoot/static/img/spiderfoot-icon.png
+category: Security
+version: "4.0.0"
+port: 1000
+description: >-
+  SpiderFoot is an open source intelligence (OSINT) automation tool.
+  It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
+
+
+  SpiderFoot has an embedded web-server for providing a clean and intuitive web-based interface but can also be used completely via the command-line. It's written in Python 3 and GPL-licensed.
+developer: Steve Micallef
+website: https://www.spiderfoot.net/
+submitter: Diego
+submission: https://github.com/smicallef/spiderfoot
+repo: https://github.com/smicallef/spiderfoot
+support: https://github.com/smicallef/spiderfoot/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Teste 6.
+dependencies: []
+path: "/spiderfoot/"
+defaultUsername: ""
+defaultPassword: ""

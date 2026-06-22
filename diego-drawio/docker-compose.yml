@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: diego-drawio_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: jgraph/drawio:30.2.5@sha256:373cfbe76db7b12029ec7601f525c047ee2e80e942e49c045bd0b0a0952ac5b4
+    restart: on-failure
+    mem_limit: 4g
+    cpu_shares: 768
+    security_opt:
+      - no-new-privileges:true
